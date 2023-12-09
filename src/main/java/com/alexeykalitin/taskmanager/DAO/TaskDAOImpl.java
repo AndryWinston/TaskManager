@@ -1,10 +1,9 @@
-package DAO;
+package com.alexeykalitin.taskmanager.DAO;
 
-import domain.Task;
+import com.alexeykalitin.taskmanager.domain.entity.Task;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.Query;
-import org.hibernate.Session;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

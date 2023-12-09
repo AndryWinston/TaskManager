@@ -1,7 +1,7 @@
-package services;
+package com.alexeykalitin.taskmanager.services;
 
-import DAO.TasksDAO;
-import domain.Task;
+import com.alexeykalitin.taskmanager.DAO.TasksDAO;
+import com.alexeykalitin.taskmanager.domain.entity.Task;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

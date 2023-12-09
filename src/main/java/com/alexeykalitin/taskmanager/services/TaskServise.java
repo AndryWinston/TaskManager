@@ -1,6 +1,6 @@
-package services;
+package com.alexeykalitin.taskmanager.services;
 
-import domain.Task;
+import com.alexeykalitin.taskmanager.domain.entity.Task;
 
 import java.util.List;
 

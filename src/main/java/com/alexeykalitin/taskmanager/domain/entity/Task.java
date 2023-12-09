@@ -1,9 +1,5 @@
-package domain;
+package com.alexeykalitin.taskmanager.domain.entity;
 
-import domain.entity.Author;
-import domain.entity.Executor;
-import domain.entity.Priority;
-import domain.entity.Status;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -29,7 +25,7 @@ public class Task {
     private Author authorId;
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "ExecutorId")
-    private Executor executorId;
+    private Author executorId;
     @Column(name = "Comments")
     private String comments;
 }

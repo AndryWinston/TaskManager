@@ -1,6 +1,5 @@
-package domain.entity;
+package com.alexeykalitin.taskmanager.domain.entity;
 
-import domain.Task;
 import jakarta.persistence.*;
 import lombok.Data;
 

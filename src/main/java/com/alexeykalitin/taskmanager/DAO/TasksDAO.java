@@ -1,6 +1,6 @@
-package DAO;
+package com.alexeykalitin.taskmanager.DAO;
 
-import domain.Task;
+import com.alexeykalitin.taskmanager.domain.entity.Task;
 
 import java.util.List;
 

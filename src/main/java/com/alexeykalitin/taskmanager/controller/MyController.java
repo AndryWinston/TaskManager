@@ -1,7 +1,10 @@
-package controller;
+package com.alexeykalitin.taskmanager.controller;
 
-import services.TaskServise;
-import domain.Task;
+
+
+
+import com.alexeykalitin.taskmanager.domain.entity.Task;
+import com.alexeykalitin.taskmanager.services.TaskServise;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,7 +15,7 @@ import java.util.List;
 public class MyController {
     @Autowired
     private TaskServise taskServise;
-    @GetMapping("/tasks}")
+    @GetMapping("/tasks")
     public List<Task> showAllTasks() {
         return taskServise.getAllTasks();
     }
