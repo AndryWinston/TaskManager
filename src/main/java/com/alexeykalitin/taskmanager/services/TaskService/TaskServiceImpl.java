@@ -1,15 +1,17 @@
-package com.alexeykalitin.taskmanager.services;
+package com.alexeykalitin.taskmanager.services.TaskService;
 
-import com.alexeykalitin.taskmanager.DAO.TasksDAO;
+import com.alexeykalitin.taskmanager.DAO.TaskDAO.TasksDAO;
 import com.alexeykalitin.taskmanager.domain.entity.Task;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
 @Service
-public class TaskServiceImpl implements TaskServise{
+public class TaskServiceImpl implements TaskServise {
     @Autowired
     private TasksDAO tasksDAO;
+
     @Override
     public List<Task> getAllTasks() {
         return tasksDAO.getAllTasks();

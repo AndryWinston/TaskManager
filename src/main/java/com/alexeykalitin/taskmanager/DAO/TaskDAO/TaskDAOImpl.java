@@ -1,4 +1,4 @@
-package com.alexeykalitin.taskmanager.DAO;
+package com.alexeykalitin.taskmanager.DAO.TaskDAO;
 
 import com.alexeykalitin.taskmanager.domain.entity.Task;
 
@@ -9,10 +9,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+
 @Repository
-public class TaskDAOImpl implements TasksDAO{
+public class TaskDAOImpl implements TasksDAO {
     @Autowired
     private EntityManager entityManager;
+
     @Override
     public List<Task> getAllTasks() {
         Query query = entityManager.createQuery("from Task");

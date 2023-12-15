@@ -1,4 +1,4 @@
-package com.alexeykalitin.taskmanager.services;
+package com.alexeykalitin.taskmanager.services.TaskService;
 
 import com.alexeykalitin.taskmanager.domain.entity.Task;
 

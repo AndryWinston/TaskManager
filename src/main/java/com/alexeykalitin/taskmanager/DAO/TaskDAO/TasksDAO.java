@@ -1,4 +1,4 @@
-package com.alexeykalitin.taskmanager.DAO;
+package com.alexeykalitin.taskmanager.DAO.TaskDAO;
 
 import com.alexeykalitin.taskmanager.domain.entity.Task;
 

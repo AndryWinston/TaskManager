@@ -1,9 +1,6 @@
 package com.alexeykalitin.taskmanager.domain.entity;
 
-
-
-public enum Priority {
-    HIGH,
-    MEDIUM,
-    LOW
+public enum Role {
+    ADMIN,
+    USER
 }
