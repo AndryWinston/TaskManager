@@ -1,5 +1,5 @@
 # TaskManager
-This is a Task Manager System on Java 17.
+This is a Task Manager API on Java 17.
 
 Task Manager is a comprehensive tool designed to manage 
 and optimize various tasks and processes on a social life.
@@ -11,9 +11,9 @@ Key features of Task Manager:
     provide detailed information like description of the task, 
     the status of completion, as well as the author and performer.
   2. Tasks Management: 
-    Task Manager allows users to view and create  new tasks, 
+    Task Manager allows users to view and create new tasks, 
     manage all currently running tasks, leave comments, 
     switch between them,  and close tasks that are was completed.
 
 Using Technology: Java, Hibernate, Docker, MySQL.
-FrameWork: Spring, Lombok, Swagger.
+FrameWork: Spring, Lombok, JWT.
